@@ -1,0 +1,251 @@
+:root{
+    --cor-de-fundo:#CDF5FD;
+    --cor-primaria:#A0E9FF;
+    --cor-secundaria:#89CFF3;
+    --cor-forte:#00A9FF;
+    --cor-extra:#F4CE14;
+}
+body{
+    background-color: var(--cor-de-fundo);
+}
+#menu{
+   display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+#jj{
+    background-color: var(--cor-secundaria);
+   position: relative;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+}
+#etiqueta_categoria{
+    display: none;
+}
+/*.parte{
+    background-color: var(--cor-primaria);
+    width: 45%;
+display: flex;
+justify-content: space-evenly;
+height:50%;
+align-items: flex-start;
+
+
+}*/
+.parte{
+    padding: 5px;
+    height: 50%;
+    background-color:var(--cor-de-fundo) ;
+    width:33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+#logo{
+    height: 80%;
+}
+#menu_imagem{
+    height: 30px;
+}
+.lista .item{
+    display: block;
+    background-color: var(--cor-extra);
+    padding: 5px;
+    width: 38vw;
+    color: aliceblue;
+}
+.lista.none{
+    display: none;
+}
+.lista .item:hover{
+    background-color:#ffd000;
+    color: aliceblue;
+}
+.lista{
+    display: block;
+    position:absolute;
+    top: 100%;
+}
+.texto_baixo.despadrao{
+ position: absolute;
+    margin-top: 156px;
+    background-color: aliceblue;
+    height: auto;
+    display: block;
+}
+.texto_baixo{
+    color: var(--cor-de-fundo);
+    background-image: linear-gradient(var(--cor-forte),#0d364b);
+    text-align: center;
+}
+.text-item{
+    color: azure;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.cabecalho_titulo{
+    display: none;
+}
+
+.item_textu{
+    display: none;
+}
+.atisla{
+    display: none;
+}
+ .caategoria{
+    display: none;
+}
+.item_texto_imagem a p{
+   display:none;
+}
+@media screen and (min-width:650px ){
+    #etiqueta_categoria{
+        display: block;
+    }
+ #logo.item{
+    display: none;
+ }
+    .item_texto_imagem a{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    } 
+    .item_texto_imagem a {
+        text-decoration: none;
+        color: #0d364b;
+    }
+   
+    .cabecalho_titulo{
+        display:inline;
+        align-self: center;
+    }
+    .negrito_cabecalho{
+        font-family: 'UnifrakturCook';
+        font-weight: 800;
+color: coral;
+font-size: 2em;
+align-self: center;
+text-align: center;
+    }
+    .cabecalho_titulo {
+        color: #0d364b;
+    }
+    .parte{
+        width:100%;
+        border-left:0.5em solid var(--cor-extra);
+        position: relative;
+    }
+    .item{
+        margin: 0 0.5em;
+    }
+    .item_textu{
+        display: block;
+        font-size: larger;
+        margin: 0 1em;
+        text-align: end;
+        align-self: center;
+
+      
+        
+    }
+    #menu{
+        display: none;
+    }
+    
+    label{width: 100px;
+    }
+   
+    .atisla.none{
+        display: none;
+    }
+    .atisla{
+        display: block;
+        position: absolute;
+        top: 100%;
+        z-index: 2;
+width: auto;
+right: 0%;
+
+    }
+    .caategoria{
+        width: 130px;
+    }
+    #menu_texyo{
+        width: 130px;
+    }
+ 
+  .lista{display: none;}
+  /*trabalhando o jj*/
+
+li.item{
+    background-color: var(--cor-secundaria);
+    padding: 1em;
+}
+.textu{
+    height: 20vh;
+}
+.texto_baixo{
+    height: 20vh;
+}
+.item_textu{display: none;}
+}
+@media screen and (min-width:800px){
+    .item_texto_imagem a{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    } 
+    .item_texto_imagem a {
+        text-decoration: none;
+        color: #0d364b;
+    }
+ .item_texto_imagem a p{
+    display: block;
+ }
+ .item_textu{
+    display: none;
+ }
+ .atisla{
+    right: 0%;
+ }
+}
+@media  screen and (min-width:1200px) {
+    .item_texto_imagem a{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    } 
+    .item_texto_imagem a {
+        text-decoration: none;
+        color: #0d364b;
+    }
+    .item_texto_imagem a p{
+        display: block;
+    }
+    .atisla.none{
+        display: none;
+    }
+    .atisla{
+        display: block;
+        position: absolute;
+        top: 100%;
+        z-index: 2;
+width: auto;
+right: 0%;
+
+    }
+   
+    
+      label{
+        width: 130px;
+       
+        align-self: center;
+      }
+     
+}

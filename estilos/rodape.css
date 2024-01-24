@@ -1,0 +1,93 @@
+.emai{
+    background-color: transparent;
+    height: 30px;
+    padding: 3em;
+    justify-self: center
+    ;
+    grid-area: email;
+}
+.emai::placeholder{
+background-image: url(/img/Vector.svg);
+background-repeat: no-repeat;
+padding-left: 1.7em;
+
+}
+.rodape{
+    display: grid;
+    grid-template-areas: 
+    "norma online offline"
+    "email email email";
+    row-gap: 2em;
+    background-color: var(--cor-de-fundo);
+    padding: 2.5em;
+}
+.ma{
+    color: var(--cor-forte);
+}
+.educação {
+    display: none;
+
+}
+.educação_offline{
+    display: none;
+}
+.educação_online{
+    display: none;
+}
+@media screen and (min-width:650px){
+    .emai::placeholder{
+       padding-left: 2.7em;
+    }
+
+    .lista_elemento{
+        display: flex;
+        width: 27%;
+        align-items: center;
+        justify-content:space-between;
+    }
+    
+    .educação{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.95em;
+        align-items: center;
+        justify-content: center;
+         grid-area:norma;
+    }
+    
+    .educação_offline{
+        grid-area: offline;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.95em;
+        align-items: center;
+        justify-content: center;
+    }
+    .educação_online{
+        grid-area:online;
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        justify-content: center;
+        row-gap: 0.95em;
+    }
+    .titulo_lista_ul{
+        color:black;
+        height:10%;
+        margin-bottom: 1em;
+    }
+    .educação_online a{
+    text-decoration: none;
+    color: midnightblue;
+    }
+    .educação_offline a{
+        text-decoration: none;
+        color: midnightblue;
+        }
+        .educação a{
+            text-decoration: none;
+            color: midnightblue;
+            }
+}
+

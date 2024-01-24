@@ -1,0 +1,147 @@
+.cartao{
+    align-self: center;
+display: flex;
+height: 25vh;
+flex-direction: row;
+margin: 35px 30px;
+background-color: var(--cor-forte);
+padding: 2em;
+gap: 1em;
+justify-content: space-between;
+padding: 5vh 2em;
+}
+.primeira_parte{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+.segunda_parte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.cartao .segunda_parte a{
+    background-color: rgb(214, 210, 255);
+   padding: 1.5em 0.1em;
+    text-align: center;
+    color:var(--cor-forte);
+    margin-top: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+   width: 100%;
+    
+font-family: 'Pacifico', cursive;
+}
+.primeira_parte_titulo{
+    color: coral;
+    font-family: 'UnifrakturCook';
+  font-style: normal;
+  font-weight: 700;
+  align-self: flex-start;
+  text-align: start;
+}
+.primeira_parte_subtitulo{
+    color: var(--cor-extra);
+    font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 800;
+  font-size:large;
+  align-self: flex-start;
+  text-align: start;
+}
+.primeira_parte_imagens{
+    display: flex;
+    justify-content: space-evenly;
+ background-color:#0d9fe7 ;
+    width: 50%;
+    padding: 0.5em;
+}
+#paragrafo{ align-self: flex-start;
+text-align: start;}
+.vector{
+  width:   100%;
+ 
+}
+/*segundo cartão*/
+.II_cartao{
+   
+  
+   box-sizing: border-box;
+    display: flex;
+    background-color: rgb(12, 180, 180);
+    height:30vh;
+    justify-content: space-between;
+margin: 1.85em;
+}
+.II_primeira{
+    display: flex;
+    flex-direction: column;
+   padding: 1em;
+    justify-content: space-between;
+   
+}
+.II_titulo{
+    font-size: 80%;
+}
+.II_subtitulo{
+    font-size: 90%;
+}
+.II_texto{
+    font-size: 90%;
+}
+.II_segunda{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+   padding: 1em;
+  
+
+}
+#II_imagem{
+    height: 65%;
+  
+}
+.II_ancora{
+    width: 100%;
+    background-color: var(--cor-extra);
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+@media screen and (min-width:680px) {
+    .vector{
+        width: 70%;
+        align-self: center;
+    }
+    .cartao .segunda_parte a{
+        width: 70%;
+       
+    }
+    .segunda_parte{ display: flex;
+    justify-content: space-between;
+align-items: center;}
+   
+}
+@media screen and (min-width:1022px) {
+    .vector{
+        width:50% ;
+        
+    }
+    .segunda_parte{
+        width: 40%;
+    }
+    .II_cartao{
+       margin:2em auto;
+       width: 54%;
+    }
+    .cartao{
+        width: 50%;
+      
+        margin: 2em auto;
+    }
+}

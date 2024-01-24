@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+      </style> 
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nosifer&family=Space+Grotesk&display=swap');
+      </style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Kenia&family=Space+Grotesk&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&display=swap');
+  </style>
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+ />
+      <link rel="stylesheet" href="estilos/cabeçalho.css">
+      <link rel="stylesheet" href="estilos/reset.css">
+      <link rel="stylesheet" href="estilos/corpo.css">
+      <link rel="stylesheet" href="estilos/embarque.css">
+      <link rel="stylesheet" href="estilos/cartao.css">
+      <link rel="stylesheet" href="estilos/topico.css">
+      <link rel="stylesheet" href="estilos/rodape.css">
+
+   
+</head>
+<body>
+ 
+            <header id="jj">
+              
+        <div class="parte">
+     <input type="button" id="menu" onclick="gg()"></input>
+     <label for="menu"><img src="img/caminho.jpg" alt="" id="menu_imagem"></label>
+        <img src="img/Alura.svg" alt="" id="logo" class="item">
+        <h1 class="cabecalho_titulo"class="item"><b class="negrito_cabecalho">Alura</b>Books</h1>
+      <input type="button" class="caategoria" id="menu_texyo">
+        <label for="menu_texyo" id="etiqueta_categoria">Categoria</label>
+        
+      <ul class="atisla none">
+        <li class="item"><a href="#" class="text-item">erfwerw</a></li>
+        <li class="item"><a href="#"class="text-item">tecnologia</a></li>
+        <li class="item"><a href="#"class="text-item">front-end</a></li>
+        <li class="item"><a href="#"class="text-item">back-end</a></li>
+        <li class="item"><a href="#"class="text-item">infraestrutura</a></li>
+        <li class="item"><a href="#"class="text-item">Business</a></li>
+    </ul></div>
+
+   <div class="item_textu">Favoritos</div> 
+  <div class="item_textu">Sacola</div> 
+    </div></div>
+   
+    <ul class="lista none">
+        <li class="item"><a href="#" class="text-item">erfwerw</a></li>
+        <li class="item"><a href="#"class="text-item">tecnologia</a></li>
+        <li class="item"><a href="#"class="text-item">front-end</a></li>
+        <li class="item"><a href="#"class="text-item">back-end</a></li>
+        <li class="item"><a href="#"class="text-item">infraestrutura</a></li>
+        <li class="item"><a href="#"class="text-item">Business</a></li>
+    </ul>
+    <div class="parte">
+      <div class="item_texto_imagem"> <a href="#"><p>sacola</p> <img src="img/Compras.svg" alt="" class="item">
+      </a> </div> 
+     <div class="item_texto_imagem"> <a href="#"> <p>favoritos</p> <img src="img/Favoritos.svg" alt="" class="item"> 
+    </a>  </div>
+       <a href="#"><img src="img/Usuario.svg" alt="" class="item"></a> </div>
+    </div>
+
+</header>
+<div class="texto_baixo">
+<section>
+<div class="textu">
+    <h1>AluraBooks</h1>
+    <p id="texto_banner">
+        encontre em nossa estante oq vc precisa para o seu deesenvolvimento
+    </p>
+    <input type="search" placeholder="qual será sua próxima pesquisa?" class="pesquisa">
+</div>
+</section>
+<section class="cavalos_giratórios">
+    <h2 id="titulo_carrossel">Embarque nesse carrossel</h2>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/Vector.svg" alt=""></div>
+          <div class="swiper-slide"><img src="img/sombrio.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/Usuario.svg" alt=""></div>
+          <div class="swiper-slide"><img src="img/Vector.svg" alt=""></div>
+          <div class="swiper-slide"><img src="img/sombrio.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/Usuario.svg" alt=""></div>
+         
+        </div>
+        <!-- If we need pagination -->
+        
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+</section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+        spaceBetween: 15,
+        slidesPerView:3,
+      });
+      </script>
+      <section class="cartao">
+        <div class="primeira_parte">
+        <h2 class="primeira_parte_titulo">Talvez você também se interesse por...</h2>
+        <h3 class="primeira_parte_subtitulo">Angular 11 e firebase</h3>
+        <p id="paragrafo">Embaque nesse carrossel,onde o mundo é muito lindo...</p>
+        <div class="primeira_parte_imagens"><img src="img/Favoritos.svg" alt=""><img src="img/Compras.svg" alt=""></div>
+    </div>
+    <div class="segunda_parte">
+        <img src="img/Vector.svg" alt="" class="vector">
+        <a href="#" >Maria Joaquina</a>
+    </div>
+      </section>
+      <section class="II_cartao">
+        <div class="II_primeira">
+            <h2 class="II_titulo">Os amigos são como irmãos que a gente escolhe. – Laura Carrossel</h2>
+            <h2 class="II_subtitulo">Não importa o quão difícil seja, a gente tem que enfrentar nossos medos. – Professora Helena Carrossel</h2>
+            <p class="II_texto">A escola é um lugar mágico, onde a gente aprende, brinca e faz amigos. – Professora Helena Carrossel</p>
+        </div>
+        <div class="II_segunda">
+            <img src="img/farol.jpg" alt="" id="II_imagem">
+            <a href="#" class="II_ancora">cirilo</a>
+        </div>
+      </section>
+      <section
+      class="topicos">
+    <h2>Personagens</h2>
+    <div id="lista">
+        <p class="bloco">Laura</p>
+    <p class="bloco">Jaime</p>
+    <p class="bloco">Cirilo</p>
+    <p class="bloco">Jorge</p>
+    <p class="bloco">Paulo</p>
+    <p class="bloco">Mario</p>
+    <p class="bloco">Letícia</p>
+    <p class="bloco">Daniel</p>
+</div>
+    </section>
+    <section class="rodape">
+      <ul class="educação">
+        <li class="titulo_lista_ul"><p>Educação</p></li>
+
+        <li class="lista_elemento"><a href="#">Casa do código</a> <img src="img/CasaDoCodigo.svg" alt=""></li>
+
+        <li class="lista_elemento"><a href="#">corlum</a><img src="img/Caelum.svg" alt=""></li>
+      </ul>
+
+      <ul class="educação_online">
+        
+        <li class="titulo_lista_ul"><p>educação</p></li>
+        
+        <li class="lista_elemento"><a href="#">alura</a>
+        <img src="img/Alura.svg" alt=""></li>
+        <li class="lista_elemento"><a href="#">aura</a>
+          <img src="img/Alura.svg" alt=""></li>
+          <li class="lista_elemento"><a href="#">AluraEmpresas</a>
+            <img src="img/AluraEmpresas.svg" alt=""></li>
+            <li class="lista_elemento"><a href="#">AluraLatam</a>
+              <img src="img/AluraLingua.svg" alt=""></li>
+              <li class="lista_elemento"><a href="#">alura</a>
+                <img src="img/Alura.svg" alt=""></li>
+                
+
+      </ul>
+      <ul class="educação_offline">
+        <li class="titulo_lista_ul">
+          <p>educação offline</p>
+        </li>
+        <li class="lista_elemento"><a href="#">alura</a>
+        <img src="img/Alura.svg" alt=""></li>
+        <li class="lista_elemento"><a href="#">aura</a>
+          <img src="img/Alura.svg" alt=""></li>
+          <li class="lista_elemento"><a href="#">AluraEmpresas</a>
+            <img src="img/AluraEmpresas.svg" alt=""></li>
+            <li class="lista_elemento"><a href="#">AluraLatam</a>
+              <img src="img/AluraLingua.svg" alt=""></li>
+              <li class="lista_elemento"><a href="#">alura</a>
+                <img src="img/Alura.svg" alt=""></li>
+      </ul>
+        <input class="emai" type="search" placeholder="enviar mensagem">
+    </section>
+    </div>
+</body>
+</html>

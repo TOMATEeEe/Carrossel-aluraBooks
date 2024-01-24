@@ -1,0 +1,24 @@
+
+.bloco{
+    background-color: var(--cor-extra);
+    padding: 1em;
+    color: rgb(6, 70, 90);
+    border: 0.3em solid #006f91;
+    font-size: 16px;
+    font-weight: 800;
+    font-family:'Noto Sans SC';
+}
+.topicos{
+    height: 40vh;
+    padding: 3em;
+    background-image:linear-gradient(var(--cor-forte),blue) ;
+    
+}
+#lista{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,49 @@
+.texto_baixo.despadrao{
+    
+       margin-top: 156px;
+       position: absolute;
+       background-color: aliceblue;
+       height: auto;
+      display: block;
+       width: 100%;
+   }
+   .textu{
+    display: flex;
+    color: var(--cor-de-fundo);
+    background-image: linear-gradient(var(--cor-forte),#0d364b);
+    text-align: center;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   #texto_banner{
+    margin: 5px;
+   }
+    h1{
+        font-weight: 700;
+        font-size: larger;
+        color: aliceblue;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    .pesquisa{
+       align-self: center;
+        width: 85%;
+        height: 45px;
+        display: block;
+        background-color: transparent;
+        border: solid white 3px;
+        color: aliceblue;
+        border-radius: 20px;
+    }
+    .pesquisa::placeholder{
+        font-family:'Space Grotesk',sans-serif;
+        background: url(/img/search_check_FILL0_wght400_GRAD0_opsz48.svg);
+        background-repeat: no-repeat;
+        background-size: 23.2px;
+        background-position-x: start;
+        background-position-y:bottom;
+        background-position: 1em;
+        text-align: center;
+        color: var(--cor-de-fundo);
+    }
